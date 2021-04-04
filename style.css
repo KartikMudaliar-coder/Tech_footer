@@ -1,0 +1,31 @@
+body{
+    background-color: white;
+}
+
+.container{
+    
+    background-color: whitesmoke;
+}
+.h1{
+    font-size: xx-large;
+    color: blue;
+}
+.h2{
+    font-size: large; 
+    color: blue;
+}
+img{
+    max-width: 70%;
+    padding-left: 35%;
+}
+
+.isRight{
+    border-left: 3px solid #51a4e7;
+    padding-left: 10%;
+}
+
+.fa{
+    padding-right: 10%;
+}
+
+
