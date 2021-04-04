@@ -18,6 +18,10 @@ img{
     max-width: 70%;
     padding-left: 35%;
 }
+a{
+    text-decoration: none;
+    color:black;
+}
 
 .isRight{
     border-left: 3px solid #51a4e7;
