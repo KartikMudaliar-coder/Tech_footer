@@ -22,14 +22,33 @@ a{
     text-decoration: none;
     color:black;
 }
+.icon{
+    padding-right: 1.5rem;
+}
 
 .isRight{
     border-left: 3px solid #51a4e7;
     padding-left: 10%;
 }
 
-.fa{
-    padding-right: 10%;
+@media screen and (max-width: 768px) {
+    .isRight{
+        border-left: none;
+      }
+    .topBorder
+    {
+      border-top: 3px solid #51a4e7;
+    }
 }
-
+@media screen and (max-width: 423px) {
+    .fa{
+        padding: 1rem;
+        
+    }
+    .icon{
+        margin-right: 2.4rem;
+        margin-left: 1rem;
+        padding: 0.8rem 1rem 1rem 0.8rem;
+    }
+}
 
